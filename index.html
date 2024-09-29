@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Ethan Pierce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="path/to/your/resume.pdf" download>Download Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="pictures/ethan-pierce.jpg" alt="Ethan Pierce" class="profile-pic">
+            <div class="hero-text">
+                <h1>Hi, I'm Ethan Pierce.</h1>
+                <p>A Creative Designer & Developer based in London.</p>
+                <a href="#projects" class="cta-button">VIEW MY WORK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="pictures/project1.jpg" alt="Project 1">
+                <div class="project-details">
+                    <h3>Aurora Photography</h3>
+                    <p>A stunning portfolio redesign to showcase beautiful imagery with parallax scrolling.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="pictures/project2.jpg" alt="Project 2">
+                <div class="project-details">
+                    <h3>EcoTech Startup</h3>
+                    <p>Responsive landing page for a clean energy startup's product launch.</p>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="pictures/project3.jpg" alt="Project 3">
+                <div class="project-details">
+                    <h3>Velocity Fitness</h3>
+                    <p>E-commerce platform built to sell fitness products.</p>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project">
+                <img src="pictures/project4-savory-bites.jpg" alt="Project 4">
+                <div class="project-details">
+                    <h3>Savory Bites Restaurant</h3>
+                    <p>Responsive restaurant website with interactive menus.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>A Bit About Me</h2>
+        <p>I'm a freelance web designer and developer with a passion for creating visually stunning websites.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>If you're ready to start your next project, feel free to reach out!</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" style="display:none;">↑</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
